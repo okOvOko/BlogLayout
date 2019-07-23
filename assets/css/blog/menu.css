@@ -1,3 +1,5 @@
+/* used https://codepen.io/erikterwan/pen/EVzeRP */
+
 .menu-toggle {
     align-self: center;
 
@@ -117,7 +119,7 @@
         padding: 50px;
         padding-top: 125px;
 
-        background: #ededed;
+        background: rgba(212, 194, 194, 0.8);
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
 
@@ -130,14 +132,9 @@
     .menu li {
         padding: 10px 0;
         font-size: 22px;
-        border-bottom: solid 1px rgb(92, 184, 92);
     }
 
     .menu-toggle input:checked ~ ul {
         transform: none;
-    }
-
-    .menu-item a::before {
-        border-bottom: none;
     }
 }

@@ -30,3 +30,22 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+
+  color: #fff;
+  background-color: rgb(212, 194, 194);
+
+
+  border: 1px solid rgb(212, 194, 194);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: rgb(212, 194, 194);
+  box-shadow: 5px 5px rgba(212, 194, 194, 0.4);
+}
