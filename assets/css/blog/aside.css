@@ -32,7 +32,12 @@
   outline: solid 2px rgb(168,151,151);
 }
 
-@media (max-width: 500px) {
+
+.aside .fa:hover {
+  background-color: #A66378;
+}
+
+@media (max-width: 750px) {
   .aside {
     display: contents;
   }

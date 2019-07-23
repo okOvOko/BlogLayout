@@ -45,7 +45,7 @@
     border-left-color: #A66378;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
     .tags {
         order: 5;
     }

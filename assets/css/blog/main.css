@@ -2,7 +2,7 @@
   width: calc(100% - 400px);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 750px) {
   .main {
     order: 1;
     width: 100%;
