@@ -1,0 +1,19 @@
+.author {
+    text-align: center;
+    padding: 15px;
+}
+
+.author .avatar {
+    max-width: 170px;
+    border-radius: 50%;
+}
+
+.author .title {
+    margin: 5px;
+}
+
+@media (max-width: 500px) {
+    .author {
+        order: 0;
+    }
+}
