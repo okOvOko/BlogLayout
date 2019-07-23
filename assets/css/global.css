@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+
+  color: #fff;
+  background-color: rgb(212, 194, 194);
+
+
+  border: 1px solid rgb(212, 194, 194);
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: rgb(212, 194, 194);
+  box-shadow: 5px 5px rgba(212, 194, 194, 0.4);
+}

@@ -1,0 +1,17 @@
+
+.subscribe {
+    font-size: 1.1em;
+}
+
+.subscribe .title {
+	font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+@media (max-width: 750px) {
+    .subscribe {
+        order: 3;
+    }
+}
