@@ -1,0 +1,46 @@
+.aside {
+  background-color: rgba(255,243,243, 0.7);
+  width: 350px;
+
+  align-self: start;
+  padding: 20px;
+}
+
+.aside .social {
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.aside input {
+  width: 100%;
+  padding: 10px 20px;
+
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  line-height: 1.25;
+  color: rgb(85,89,92);
+  margin-bottom: 10px;
+}
+
+.aside input:focus {
+  outline: solid 2px rgb(168,151,151);
+}
+
+@media (max-width: 500px) {
+  .aside {
+    display: contents;
+  }
+  .wrapper {
+    flex-flow: column;
+  }
+
+  .social {
+    order: 2;
+  }
+}

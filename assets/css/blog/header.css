@@ -52,6 +52,10 @@
     display: none;
   }
 
+  .menu {
+    display: list-item;
+  }
+
   .navigation {
     display: flex;
     justify-content: space-between;

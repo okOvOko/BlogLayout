@@ -25,6 +25,8 @@
 
     <link rel="stylesheet" href="assets/css/blog/menu.css" />
     <link rel="stylesheet" href="assets/css/blog/header.css" />
+    <link rel="stylesheet" href="assets/css/blog/aside.css" />
+    <link rel="stylesheet" href="assets/css/blog/main.css" />
 </html>
 <body>
 	<header class="header">
@@ -68,8 +70,8 @@
     </header>
 	
 	<div class="wrapper container">
-      <main class="main">
-        <div class="container">
+      <main class="main container">
+        <!-- <div class="container"> -->
           <ul class="card-list">
             
             <li class="card">
@@ -85,9 +87,10 @@
               <div class="card-information">
                 <span class="timestamp"><i class="fa fa-clock-"></i> 1 mins ago</span>
                 <span class="comments"><i class="fa fa-comments"></i><a href="#">0 comments</a></span>
-                <span class="likes"><i class="fa fa-thumbs-up"></i><a href="#">2 likes</a></span>
+                <span class="likes"><i class="fa fa-star"></i><a href="#">2</a></span>
               </div>
             </li>
+
             <li class="card">
               <div class="image">
                 <img src="assets/images/bulka.jpg" alt="Bulka's photo" />
@@ -100,10 +103,11 @@
               </div>
               <div class="card-information">
                 <span class="timestamp"><i class="fa fa-clock-"></i> 1 month ago</span>
-                <span class="comments"><i class="fa fa-comments"></i><a href="#"> 0 comments</a></span>
-                <span class="likes"><i class="fa fa-thumbs-up"></i><a href="#">118 likes</a></span>
+                <span class="comments"><i class="fa fa-comments"></i><a href="#"> 0</a></span>
+                <span class="likes"><i class="fa fa-star"></i><a href="#">118</a></span>
               </div>
             </li>
+
             <li class="card">
               <div class="image">
                 <img src="assets/images/maru.jpg" alt="Maru's photo" />
@@ -116,10 +120,11 @@
               </div>
               <div class="card-information">
                 <span class="timestamp"><i class="fa fa-clock-"></i>2 years ago</span>
-                <span class="comments"><i class="fa fa-comments"></i><a href="#">12 comments</a></span>
-                <span class="likes"><i class="fa fa-thumbs-up"></i><a href="#">52 likes</a></span>
+                <span class="comments"><i class="fa fa-comments"></i><a href="#">12</a></span>
+                <span class="likes"><i class="fa fa-star"></i><a href="#">52</a></span>
               </div>
             </li>
+
             <li class="card">
               <div class="image">
                 <img src="assets/images/honeybee.jpg" alt="Honey Bee's photo" />
@@ -134,10 +139,11 @@
               <div class="card-information">
                <div class="card-information">
                 <span class="timestamp"><i class="fa fa-clock-"></i> 3 years ago</span>
-                <span class="comments"><i class="fa fa-comments"></i><a href="#">37 comments</a></span>
-                <span class="likes"><i class="fa fa-thumbs-up"></i><a href="#">112 likes</a></span>
+                <span class="comments"><i class="fa fa-comments"></i><a href="#">37</a></span>
+                <span class="likes"><i class="fa fa-star"></i><a href="#">112</a></span>
               </div>
             </li>
+
             <li class="card">
               <div class="image">
                 <img src="assets/images/bob.jpg" alt="Bob's photo" />
@@ -150,20 +156,23 @@
               </div>
               <div class="card-information">
                 <span class="timestamp"><i class="fa fa-clock-"></i> 4 years ago</span>
-                <span class="comments"><i class="fa fa-comments"></i><a href="#">53 comments</a></span>
-                <span class="likes"><i class="fa fa-thumbs-up"></i><a href="#">220 likes</a></span>
+                <span class="comments"><i class="fa fa-comments"></i><a href="#">53</a></span>
+                <span class="likes"><i class="fa fa-star"></i><a href="#">220</a></span>
               </div>
-            </li>
+            </l
+            i>
           </ul>
-        </div>
+        <!-- </div> -->
       </main>
 
       <aside class="aside">
+
         <section class="author">
           <img class="avatar" src="assets/images/author.svg" alt="avatar"/>
           <h3 class="title">Oksana Kovalenko</h3>
           <p class="descr">Own noisy cat, hate him, love him</p>
         </section>
+
         <ul class="social">
           <li class="social-item">
             <a href="#" class="fa fa-youtube"></a>
@@ -178,10 +187,11 @@
             <a href="#" class="fa fa-linkedin"></a>
           </li>
         </ul>
+
         <form class="subscribe">
           <h3 class="title">Join Us</h3>
-          <input class="input" type="text" placeholder="Username" />
-          <input class="input" type="email" placeholder="Email" />
+          <input class="input" type="text" placeholder="Username" required>
+          <input class="input" type="email" placeholder="Email" required>
           <button class="btn">Subscribe</button>
         </form>
         <form class="search-form">
@@ -189,6 +199,7 @@
           <input type="text" placeholder="Key search words..." />
           <button class="btn">Search</button>
         </form>
+
         <section class="tags">
           <h3 class="title">Popular Tags</h3>
           <ul class="tags-list">
@@ -203,6 +214,7 @@
             <li><a href="#" class="tag">Office</a></li>
           </ul>
         </section>
+
         <section class="last-comments">
           <h3 class="title">Last Comments</h3>
           <ul class="list-comments">
@@ -210,8 +222,7 @@
               <img class="avatar" src="assets/images/avatar1.png" alt="" />
               <div class="text">
                 <div class="row">
-                  <h4 class="name">
-Winnie Wong</h4>
+                  <h4 class="name">Winnie Wong</h4>
                   <span class="timestamp">1 min ago</span>
                 </div>
                 <p class="descr">
@@ -257,6 +268,7 @@ Winnie Wong</h4>
             </li>
           </ul>
         </section>
+
       </aside>
     </div>
 
@@ -264,8 +276,6 @@ Winnie Wong</h4>
       <a class="logo" href="#">
         <img src="assets/images/cat-logo.png" alt="logo"/>
       </a>
-
-      <span class="copyright">&copy; Oksana Kovalenko, 2019</span>
 
       <div class="contacts">
         <h3 class="title">Contacts</h3>
@@ -290,5 +300,7 @@ Winnie Wong</h4>
           </li>
         </ul>
       </div>
+
+      <span class="copyright">&copy; Oksana Kovalenko, 2019</span>
     </footer>
 </body>
