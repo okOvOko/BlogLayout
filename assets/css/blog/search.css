@@ -1,0 +1,17 @@
+.search-form {
+    font-size: 1em;
+}
+
+
+@media (max-width: 500px) {
+    .search-form {
+        order: 4;
+    }
+
+    .search-form input {
+    width: 65%;
+}
+.search-form .btn {
+    width: 34%;
+}
+}
