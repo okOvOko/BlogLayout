@@ -24,10 +24,10 @@
     content: "";
     width: 100%;
     position: absolute;
-    border-bottom: 5px solid #fff;
+    border-bottom: 5px solid #A66378;
     bottom: 0;
     right: 300px;
-    transition: 0.5s all;
+    transition: 0.3s all;
 }
 
 .menu-item a:hover::before {
@@ -136,4 +136,18 @@
     .menu-toggle input:checked ~ ul {
         transform: none;
     }
+
+    .menu-item a::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    border-bottom: 5px solid #A66378;
+    bottom: 0;
+    right: 300px;
+    transition: 0.3s all;
+}
+
+.menu-item a:hover::before {
+    right: 0;
+}
 }
