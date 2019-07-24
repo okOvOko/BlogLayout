@@ -24,7 +24,7 @@
     text-align: center;
 }
 
-.card-list img {
+.card img {
     max-width: 100%;
 
     -moz-transition: all 1s ease-out;
@@ -32,7 +32,11 @@
     -webkit-transition: all 1s ease-out;
 }
 
-.card-list img:hover {
+.card:hover {
+  box-shadow: 2px 4px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover img {
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
